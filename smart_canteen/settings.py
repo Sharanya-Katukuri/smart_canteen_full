@@ -5,7 +5,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 
 SECRET_KEY = 'demo-secret-key-change-in-production'
 DEBUG = True
-ALLOWED_HOSTS = ['smart-canteen-menu-web.onrender.com']
+ALLOWED_HOSTS = ['smart-canteen-menu-web.onrender.com','127.0.0.1']
 
 INSTALLED_APPS = [
     'django.contrib.admin',
